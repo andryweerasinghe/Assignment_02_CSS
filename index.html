@@ -2,9 +2,217 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Case I</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+
+    <style>
+        #red{
+            width: 50vw;
+            height: 50vh;
+            background-color: red;
+            position: absolute;
+        }
+        #green{
+            width: 50vw;
+            height: 50vh;
+            background-color: green;
+            position: absolute;
+
+            right: 0;
+        }
+        #pink{
+            width: 50vw;
+            height: 50vh;
+            background-color: deeppink;
+            position: absolute;
+
+            bottom: 0;
+            right: 0;
+        }
+        #orange{
+            width: 50vw;
+            height: 50vh;
+            background-color: orange;
+            position: absolute;
+
+            bottom: 0;
+        }
+
+        .sub-circle{
+            width: 150px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 100%;
+            position: absolute;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .red-box{
+            width: 50px;
+            aspect-ratio: 1/1;
+            background-color: red;
+            position: absolute;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #center{
+            width: 150px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        #center-circle{
+            width: 100px;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            background-color: red;
+            position: absolute;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #bottom-half-circle{
+            width: 120px;
+            height: 60px;
+            background-color: white;
+            border-radius: 10rem 10rem 0 0;
+            position: absolute;
+
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        #top-half-circle{
+            width: 120px;
+            height: 60px;
+            background-color: white;
+            border-radius: 0 0 10rem 10rem;
+            position: absolute;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #top-left-circle{
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 0 0 10rem 0;
+            position: absolute;
+
+            top: 0;
+            left: 0;
+            margin: auto;
+        }
+        #top-right-circle{
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 0 0 0 10rem;
+            position: absolute;
+
+            top: 0;
+            right: 0;
+            margin: auto;
+        }
+        #bottom-left-circle{
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 0 10rem 0 0;
+            position: absolute;
+
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+        #bottom-right-circle{
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 10rem 0 0 0;
+            position: absolute;
+
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
+
+    <!-- Red Section -->
+    <div id="red">
+        <div class="sub-circle">
+           <div class="red-box"></div>
+        </div>
+    </div>
+
+    <!-- Green Section -->
+    <div id="green">
+        <div class="sub-circle">
+            <div class="red-box"></div>
+        </div>
+    </div>
+
+    <!-- Pink Section -->
+    <div id="pink">
+        <div class="sub-circle">
+            <div class="red-box"></div>
+        </div>
+    </div>
+
+    <!-- Yellow Section -->
+    <div id="orange">
+        <div class="sub-circle">
+            <div class="red-box"></div>
+        </div>
+    </div>
+
+    <!-- Center Section -->
+    <div id="center">
+        <div id="center-circle"></div>
+    </div>
+
+    <!-- 180deg circle; Bottom -->
+    <div id="bottom-half-circle"></div>
+
+    <!-- 180deg circle; Top -->
+    <div id="top-half-circle"></div>
+
+    <!-- 90deg circle; Top Left -->
+    <div id="top-left-circle"></div>
+
+    <!-- 90deg circle; Top Right -->
+    <div id="top-right-circle"></div>
+
+    <!-- 90deg circle; Bottom Left -->
+    <div id="bottom-left-circle"></div>
+
+    <!-- 90deg circle; Bottom Right -->
+    <div id="bottom-right-circle"></div>
 
 </body>
 </html>
