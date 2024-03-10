@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dae0cbb6-e340-4220-b2e8-7f9336a7ce01" name="Changes" comment="Adding normalize.css">
+    <list default="true" id="dae0cbb6-e340-4220-b2e8-7f9336a7ce01" name="Changes" comment="Case 02 completed">
+      <change afterPath="$PROJECT_DIR$/case_03.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710062648646</updated>
-      <workItem from="1710062649666" duration="3831000" />
+      <workItem from="1710062649666" duration="10968000" />
     </task>
     <task id="LOCAL-00001" summary="Adding normalize.css">
       <option name="closed" value="true" />
@@ -71,7 +71,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710063443531</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Case 01 completed">
+      <option name="closed" value="true" />
+      <created>1710066506793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710066506793</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Case 02 completed">
+      <option name="closed" value="true" />
+      <created>1710071171718</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710071171718</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding normalize.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding normalize.css" />
+    <MESSAGE value="Case 01 completed" />
+    <MESSAGE value="Case 02 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Case 02 completed" />
   </component>
 </project>
